@@ -63,7 +63,7 @@ const HardwareBenefits = () => {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="section-title mb-4">
-            Why <span className="gradient-text">CortaneX Hardware</span>?
+            Why <span className="gradient-text">CORTA-IHP</span>?
           </h2>
           <p className="section-subtitle mx-auto">
             Complete industrial hardware control from a single unified platform.
