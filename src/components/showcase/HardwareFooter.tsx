@@ -1,12 +1,13 @@
-import { Sparkles, Cpu } from "lucide-react";
+import { Sparkles } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const HardwareFooter = () => {
   return (
     <footer className="py-12 sm:py-16 px-4 sm:px-6 border-t border-border">
       <div className="max-w-6xl mx-auto text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
-          <Cpu className="w-10 h-10 text-primary" />
-          <span className="font-bold text-2xl tracking-tight">CortaneX Hardware</span>
+          <img src={logo} alt="CORTA-IHP Logo" className="w-10 h-10 object-contain" />
+          <span className="font-bold text-2xl tracking-tight">CORTA-IHP</span>
         </div>
         <p className="text-muted-foreground max-w-lg mx-auto mb-8">
           Enterprise Industrial Hardware Control for the modern manufacturing facility.
@@ -40,7 +41,7 @@ const HardwareFooter = () => {
         </a>
 
         <div className="mt-8 text-xs text-muted-foreground/50">
-          © 2026 CortaneX Hardware Portal. All rights reserved.
+          © 2026 CORTA-IHP. All rights reserved.
         </div>
       </div>
     </footer>

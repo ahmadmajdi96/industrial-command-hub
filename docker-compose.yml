@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  corta-ihp:
+    build: .
+    container_name: corta-ihp
+    ports:
+      - "6687:6687"
+    restart: unless-stopped

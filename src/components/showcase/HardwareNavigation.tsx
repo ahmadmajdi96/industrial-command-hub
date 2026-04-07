@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Settings, Zap, Printer, Move, Eye, ArrowUpDown, Menu, X, Cpu } from "lucide-react";
+import { Settings, Zap, Printer, Move, Eye, ArrowUpDown, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "CNC", href: "#cnc", icon: Settings },
@@ -28,8 +29,8 @@ const HardwareNavigation = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 sm:gap-3 hover-scale">
-          <Cpu className="w-7 h-7 sm:w-8 sm:h-8 text-primary" />
-          <span className="font-bold text-base sm:text-lg tracking-tight">CortaneX Hardware</span>
+          <img src={logo} alt="CORTA-IHP Logo" className="w-8 h-8 sm:w-9 sm:h-9 object-contain" />
+          <span className="font-bold text-base sm:text-lg tracking-tight">CORTA-IHP</span>
         </a>
 
         <div className="hidden md:flex items-center gap-1">

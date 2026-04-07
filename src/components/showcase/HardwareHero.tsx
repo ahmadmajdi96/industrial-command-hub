@@ -1,5 +1,5 @@
 import heroFactory from "@/assets/hero-factory.jpg";
-import { Cpu } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const HardwareHero = () => {
   return (
@@ -25,11 +25,11 @@ const HardwareHero = () => {
         </div>
 
         <div className="flex justify-center mb-4 sm:mb-6">
-          <Cpu className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-primary animate-pulse" />
+          <img src={logo} alt="CORTA-IHP Logo" className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 object-contain" />
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-4 sm:mb-6">
-          <span className="gradient-text">CortaneX</span>
+          <span className="gradient-text">CORTA-IHP</span>
           <br />
           <span className="text-foreground">Hardware Portal</span>
         </h1>
