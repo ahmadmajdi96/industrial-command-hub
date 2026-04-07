@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        cnc: "hsl(var(--cnc-color))",
+        laser: "hsl(var(--laser-color))",
+        printer3d: "hsl(var(--printer3d-color))",
+        robotic: "hsl(var(--robotic-color))",
+        vision: "hsl(var(--vision-color))",
+        conveyor: "hsl(var(--conveyor-color))",
       },
       borderRadius: {
         lg: "var(--radius)",
